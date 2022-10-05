@@ -1,0 +1,22 @@
+{
+  "stage_credential": {
+    "url": "https://staging.houseofmath.com/",
+    "login_api":"https://staging.api.houseofmath.com/api/v1/auth/login",
+    "student_cred":{
+      "email":"testacc@student.com",
+      "password": "test-student"
+    },
+    "mentor_cred":{
+      "email": "testacc@mentor.com",
+      "password": "test-mentor"
+    }
+  },
+  "prod_credential": {
+    "url": "https://houseofmath.com/",
+    "login_api":"https://api.houseofmath.com/api/v1/auth/login",
+    "student_cred":{
+      "email": "riyad@houseofmath.no",
+      "password": "test-student"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    Dashboard items Check",
+    "keyword": "Feature",
+    "name": "Dashboard Page",
+    "line": 1,
+    "id": "dashboard-page",
+    "tags": [],
+    "uri": "dashboard.feature",
+    "elements": [
+      {
+        "id": "dashboard-page;dashboard-items-check-after-login",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Dashboard Items check after login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am logged in user",
+            "result": {
+              "status": "passed",
+              "duration": 8064000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I have landed on the dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 1944000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should be able to go to the pages shown in the dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 17150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I should be able to check my user information in profile section",
+            "result": {
+              "status": "passed",
+              "duration": 4567000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
